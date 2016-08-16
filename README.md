@@ -1,5 +1,5 @@
 # SamzaHivePigNeo4J
-Building realt time data pipelines
+Building real time data pipelines with Kafka and Samza.
 
 The MyPredictiveFarm datapipline
 ================================
