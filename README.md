@@ -4,4 +4,8 @@ Building real time data pipelines with Kafka and Samza.
 The MyPredictiveFarm datapipline
 ================================
 
-Meta information store: Graph database either Neo4j or Apache giraph
+Meta information store: Graph database either Neo4j or Apache giraph.
+
+Lowest level backend store:
+
+- Neo4j
