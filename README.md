@@ -18,4 +18,6 @@ Consuming messages from more than one input stream, and all input streams have m
 MyPredictiveFarm example, if a job is consuming AdFarmingEvent and AdDeviceEvent, the task instance’s process() method is called with a message from AdMessageEvent, then a message from AdDeviceEvent, then another message from AdImpressionEvent,
 and continues to alternate between the two.
 
+Kafka Apache OSS, mainly from LinkedIn Handles all the logs/event streams High-throughput: millions events/sec High-volume: TBs - PBs of events Low-latency: single-digit msec from producer to consumer Scalable: topics are partitioned across cluster Durable: topics are replicated across cluster Available: auto failover
+
 
