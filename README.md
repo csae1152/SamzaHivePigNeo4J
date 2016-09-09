@@ -22,6 +22,6 @@ Kafka Apache OSS, mainly from LinkedIn Handles all the logs/event streams High-t
 
 Explaining auto failover.
 
-It's a routine for checking if clusters are responding.
+It's a routine for checking if clusters are responding. Which is really important for monitoring your system health.
 
 
