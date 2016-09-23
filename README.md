@@ -38,6 +38,8 @@ Samza ’s approach to streaming is to process messages as they are received, on
 
 Most event processing applications need to either read data from a remote database or need to maintain internal state to produce results. In our experience, the primary bottleneck in these applications is either the I/O and or CPU spent in performing the I/O.
 
-Searching for a solution
+Buffering & Latency
+
+Storm uses ZeroMQ for non-durable communication between bolts, which enables extremely low latency transmission of tuples. Samza does not have an equivalent mechanism, and always writes task output to a stream.
 
 
