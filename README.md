@@ -42,4 +42,7 @@ Buffering & Latency
 
 Storm uses ZeroMQ for non-durable communication between bolts, which enables extremely low latency transmission of tuples. Samza does not have an equivalent mechanism, and always writes task output to a stream.
 
+ZeroMQ, ActiveMQ, RabbitMQ
+==========================
+
 
