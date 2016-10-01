@@ -46,7 +46,12 @@ Differences between Spark, Storm and Samza:
 
 Spark uses ZeroMQ as an underlaying messaging service.
 
-ZeroMQ, ActiveMQ, RabbitMQ
+Spark vs. Samza
 ==========================
+
+Samza is lower level. 
+Samza uses per-message semantics
+Windowing for microbatch action
+
 
 
