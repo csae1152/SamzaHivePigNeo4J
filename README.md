@@ -53,5 +53,7 @@ Samza is lower level.
 Samza uses per-message semantics
 Windowing for microbatch action
 
+Spark uses inherent topological processing graph.
+
 
 
