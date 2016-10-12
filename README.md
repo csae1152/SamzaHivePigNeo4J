@@ -55,7 +55,9 @@ Windowing for microbatch action
 
 Spark uses inherent topological processing graph.
 
-Let's have a look at the processing graph
+
+
+
 
 
 
