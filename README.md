@@ -57,6 +57,8 @@ Spark uses inherent topological processing graph.
 
 Samza architecture overview
 
+Combining Samza with Kafka
+
 
 
 
