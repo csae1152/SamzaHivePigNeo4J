@@ -12,6 +12,8 @@ Lowest level backend store:
 
 We set up a graph database through GrapheneDB.
 
+We can access our data model via a rest api.
+
 How data streams are processed
 ==============================
 
