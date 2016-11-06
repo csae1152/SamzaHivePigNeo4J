@@ -10,6 +10,8 @@ Lowest level backend store:
 
 - Neo4j (retina blood vessels model)
 
+We set up a graph database through GrapheneDB.
+
 How data streams are processed
 ==============================
 
