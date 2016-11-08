@@ -59,7 +59,7 @@ Windowing for microbatch action
 
 Spark uses inherent topological processing graph.
 
-Combining Samza with Kafka for aggregating the retina images.
+Combining Samza with Kafka for aggregating the retina images and collecting meta information.
 
 
 
