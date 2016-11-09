@@ -59,6 +59,8 @@ Windowing for microbatch action
 
 Spark uses inherent topological processing graph.
 
+What are inherent topological processing graphs.
+
 Combining Samza with Kafka for aggregating the retina images and collecting meta information.
 
 
