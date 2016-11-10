@@ -63,6 +63,17 @@ What are inherent topological processing graphs.
 
 Combining Samza with Kafka for aggregating the retina images and collecting meta information.
 
+Apache Spark is a clustered, in-memory data processing solution that scales processing of large datasets easily across many machines. It also comes with GraphX and GraphFrames two frameworks for running graph compute operations on your data.
+
+You can integrate with Spark in a variety of ways. Either to pre-process (aggregate, filter, convert) your raw data to be imported into Neo4j.
+
+Spark can also serve as external Graph Compute solution, where you
+
+export data of selected subgraphs from Neo4j to Spark,
+compute the analytic aspects, and
+write the results back to Neo4j
+to be used in your Neo4j operations and Cypher queries.
+
 
 
 
