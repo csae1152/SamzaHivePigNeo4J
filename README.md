@@ -74,6 +74,9 @@ compute the analytic aspects, and
 write the results back to Neo4j
 to be used in your Neo4j operations and Cypher queries.
 
+Cypher explained:
+=================
+
 
 
 
