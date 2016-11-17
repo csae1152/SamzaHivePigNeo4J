@@ -77,6 +77,10 @@ to be used in your Neo4j operations and Cypher queries.
 Cypher explained:
 =================
 
+Cypher is a SQL like query language for traversing through a graph.
+
+
+
 
 
 
