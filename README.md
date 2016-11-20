@@ -79,6 +79,8 @@ Cypher explained:
 
 Cypher is a SQL like query language for traversing through a graph.
 
+Seeting up an online neo4J database with GrapheneDB.
+
 
 
 
