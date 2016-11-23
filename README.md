@@ -81,6 +81,8 @@ Cypher is a SQL like query language for traversing through a graph.
 
 Seeting up an online neo4J database with GrapheneDB.
 
+The Hadoop Distributed File System (HDFS) offers a way to store large files across multiple machines. Hadoop and HDFS was derived from Google File System (GFS) paper. Prior to Hadoop 2.0.0, the NameNode was a single point of failure (SPOF) in an HDFS cluster. With Zookeeper the HDFS High Availability feature addresses this problem by providing the option of running two redundant NameNodes in the same cluster in an Active/Passive configuration with a hot standby.
+
 
 
 
