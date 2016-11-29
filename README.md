@@ -14,6 +14,8 @@ We set up a graph database through GrapheneDB.
 
 We can access our data model via a rest api.
 
+We will use Spring data as a wrapper for accessing neo4j via cipher.
+
 How data streams are processed
 ==============================
 
