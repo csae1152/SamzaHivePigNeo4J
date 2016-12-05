@@ -89,6 +89,8 @@ Cypher and Spring data.
 
 Spring Boot and Spring data.
 
+Spring boot bug while working with Spring data.
+
 
 
 
