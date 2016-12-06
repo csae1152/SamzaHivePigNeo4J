@@ -91,6 +91,8 @@ Spring Boot and Spring data.
 
 Spring boot bug while working with Spring data.
 
+This is a well know bug working with Spring boot's auto configuration.
+
 
 
 
