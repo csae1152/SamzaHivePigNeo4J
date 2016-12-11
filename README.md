@@ -95,6 +95,8 @@ This is a well know bug working with Spring boot's auto configuration.
 
 Spring Boot is not able to find bean's annotated with @Bean
 
+There are workarounds...
+
 
 
 
