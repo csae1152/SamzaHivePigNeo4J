@@ -8,9 +8,7 @@ Meta information store: Graph database either Neo4j or Apache giraph.
 
 Lowest level backend store:
 
-- Neo4j (retina blood vessels model)
-
-We set up a graph database through GrapheneDB.
+- Neo4j (retina blood vessel
 
 We can access our data model via a rest api.
 
@@ -96,6 +94,8 @@ This is a well know bug working with Spring boot's auto configuration.
 Spring Boot is not able to find bean's annotated with @Bean
 
 There are workarounds...
+
+Using Spring Social Twitter to grap twitter images from a samza stream.
 
 
 
