@@ -97,6 +97,18 @@ There are workarounds...
 
 Using Spring Social Twitter to grap twitter images from a samza stream.
 
+Examples:
+
+OutgoingMessageEnvelope
+public OutgoingMessageEnvelope(SystemStream systemStream,
+                       java.lang.Object key,
+                       java.lang.Object message)
+Constructs a new OutgoingMessageEnvelope from specified components.
+Parameters:
+systemStream - Object representing the appropriate stream of which this envelope will be sent on.
+key - A deserialized key to be used for the message.
+message - A deserialized message to be sent in this envelope.
+
 
 
 
