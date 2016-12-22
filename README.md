@@ -109,6 +109,16 @@ systemStream - Object representing the appropriate stream of which this envelope
 key - A deserialized key to be used for the message.
 message - A deserialized message to be sent in this envelope.
 
+Build Your Own Spring Boot Starter – Stormpath and Samza
+
+We started building Spring Boot starters for our own product. A few months ago, we launched the Stormpath Spring Boot Starter, with the idea that we would soon use it in other applications we wrote for our own needs. It handles a lot of user management features, and we eat our own dog food.
+
+More recently, we developed a Spring Boot Starter for Apache Samza, which we open-sourced under the Apache 2.0 license. Samza is a real-time streaming product that traditionally requires YARN, a complex infrastructure to launch JVMs and manage memory across them. I was frustrated by how complicated it is to deploy Samza, so we reverse engineered the parts that launch a Samza container, and turned it into a Spring Boot Starter.
+
+Now, anytime we have a Samza microservice that consumes Kafka events, we can skip the complex deployment process (unzipping a tarball, running a shell script to launch the process and connecting to a YARN environment, etc.). It’s now just a simple Spring Boot application that can be launched from the command line, and it changed our entire microservices architecture in a week’s worth of work.
+
+
+
 
 
 
