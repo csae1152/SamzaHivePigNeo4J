@@ -121,6 +121,9 @@ State Management
 
 One of the more interesting features of Samza is stateful stream processing. Tasks can store and query data through APIs provided by Samza. That data is stored on the same machine as the stream task; compared to connecting over the network to a remote database, Samza’s local state allows you to read and write large amounts of data with better performance. Samza replicates this state across multiple machines for fault-tolerance (described in detail below).
 
+Creating a Spring boot application with a Neo4j database
+========================================================
+
 
 
 
