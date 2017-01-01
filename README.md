@@ -124,6 +124,8 @@ One of the more interesting features of Samza is stateful stream processing. Tas
 Creating a Spring boot application with a Neo4j database
 ========================================================
 
+We will use GrapheneDB for hosting our Neo4J instances.
+
 
 
 
