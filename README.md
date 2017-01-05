@@ -138,6 +138,8 @@ Stateful Stream Processing
 
 One of the unique features that sets Samza apart from other stream processing systems is its built-in support for stateful stream processing. Some stream processing tasks are stateless and operate on one record at a time, but other uses such as counts, aggregation or joins over a window in the stream require state to be buffered in the system.
 
+NLP and advanced stream processing
+
 
 
 
