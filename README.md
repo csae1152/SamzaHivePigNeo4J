@@ -126,6 +126,10 @@ Creating a Spring boot application with a Neo4j database
 
 We will use GrapheneDB for hosting our Neo4J instances.
 
+Fault Tolerance and Isolation
+
+Samza provides fault tolerance by restarting containers that fail (potentially on another machine) and resuming processing of the stream. Samza resumes from the same offset by using “checkpoints”. The Samza container periodically checkpoints the current offset for each input stream partition that a task consumes. When the container starts up again after a failure, it looks for the most recent checkpoint and starts consuming messages from the checkpointed offsets. This guarantees at-least-once processing of messages.
+
 
 
 
