@@ -130,6 +130,14 @@ Fault Tolerance and Isolation
 
 Samza provides fault tolerance by restarting containers that fail (potentially on another machine) and resuming processing of the stream. Samza resumes from the same offset by using “checkpoints”. The Samza container periodically checkpoints the current offset for each input stream partition that a task consumes. When the container starts up again after a failure, it looks for the most recent checkpoint and starts consuming messages from the checkpointed offsets. This guarantees at-least-once processing of messages.
 
+One of the advantages of being tightly integrated with Kafka is that a failure in a downstream job does not cause back-pressure on upstream jobs. Normally, when a job fails, the job producing input for the failed job must decide what to do: it has messages that need to be sent, but the downstream job is not available to process them. It can drop the messages, block until downstream processing resumes, or store them locally until the job comes back. Samza avoids this problem by sending all messages between jobs to Kafka. This allows upstream jobs to continue processing at full speed without worrying about losing its output, even in scenarios where the jobs that are processing might be down. Messages are stored on Kafka brokers even when a job is unavailable.
+
+By using independent tasks which process different partitions of the input streams and isolating the task execution by means of containers, Samza achieves process isolation and fault tolerance.  Since each container is a separate UNIX process, the execution framework (that Samza integrates with) can easily migrate a process from one machine to another, incase any of the containers starts hogging the resources of a machine. Process isolation also means that when one job fails, it does not impact other jobs in the cluster. There are some caveats to this, which are documented here.
+
+Stateful Stream Processing
+
+One of the unique features that sets Samza apart from other stream processing systems is its built-in support for stateful stream processing. Some stream processing tasks are stateless and operate on one record at a time, but other uses such as counts, aggregation or joins over a window in the stream require state to be buffered in the system.
+
 
 
 
