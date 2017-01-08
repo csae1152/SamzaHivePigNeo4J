@@ -140,6 +140,13 @@ One of the unique features that sets Samza apart from other stream processing sy
 
 NLP and advanced stream processing
 
+Working with Data
+Pig allows you to transform data in many ways. As a starting point, become familiar with these operators:
+
+Use the FILTER operator to work with tuples or rows of data. Use the FOREACH operator to work with columns of data.
+Use the GROUP operator to group data in a single relation. Use the COGROUP, inner JOIN, and outer JOIN operators to group or join data in two or more relations.
+Use the UNION operator to merge the contents of two or more relations. Use the SPLIT operator to partition the contents of a relation into multiple relations.
+
 
 
 
