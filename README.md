@@ -157,6 +157,8 @@ Secondly, our integration with YARN is completely componentized. It exists in a 
 
 We think there will be a lot of innovation both in open source virtualization frameworks like Mesos and YARN and in commercial cloud providers like Amazon, so it makes sense to integrate with them.
 
+Combining Samza and Spring boot.
+
 
 
 
