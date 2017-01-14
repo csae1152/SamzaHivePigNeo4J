@@ -159,6 +159,10 @@ We think there will be a lot of innovation both in open source virtualization fr
 
 Combining Samza and Spring boot.
 
+Turning the database inside out.
+
+
+
 
 
 
