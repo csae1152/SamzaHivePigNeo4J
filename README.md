@@ -161,6 +161,8 @@ Combining Samza and Spring boot.
 
 Turning the database inside out.
 
+Use Local Data to Run Hello Samza
+
 
 
 
