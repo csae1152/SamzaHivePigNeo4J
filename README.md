@@ -169,6 +169,10 @@ Partitions and tasks are both logical units of parallelism—they don’t corres
 
 Let as have a look at Partitions
 
+WHAT IS PIG?
+
+Pig is a high level scripting language that is used with Apache Hadoop. Pig excels at describing data analysis problems as data flows. Pig is complete in that you can do all the required data manipulations in Apache Hadoop with Pig. In addition through the User Defined Functions(UDF) facility in Pig you can have Pig invoke code in many languages like JRuby, Jython and Java. Conversely you can execute Pig scripts in other languages. The result is that you can use Pig as a component to build larger and more complex applications that tackle real business problems.
+
 
 
 
