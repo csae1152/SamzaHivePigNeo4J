@@ -196,6 +196,8 @@ Partitions: Each Table can have one or more partition Keys which determines how 
 
 Buckets (or Clusters): Data in each partition may in turn be divided into Buckets based on the value of a hash function of some column of the Table. For example the page_views table may be bucketed by userid, which is one of the columns, other than the partitions columns, of the page_view table. These can be used to efficiently sample the data.
 
+Building a data pipeline.
+
 
 
 
