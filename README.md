@@ -198,6 +198,10 @@ Buckets (or Clusters): Data in each partition may in turn be divided into Bucket
 
 Building a data pipeline.
 
+As a data sink we have our app.
+
+Connected through Kafka with Spark.
+
 
 
 
