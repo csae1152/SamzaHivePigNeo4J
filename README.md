@@ -202,6 +202,8 @@ As a data sink we have our app.
 
 Connected through Kafka with Spark.
 
+For storing our logs we use Cassandra.
+
 
 
 
