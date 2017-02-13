@@ -8,7 +8,7 @@ Meta information store: Graph database either Neo4j or Apache giraph.
 
 Lowest level backend store:
 
-- Neo4j (retina blood vessel
+- Neo4j retina blood vessel
 
 We can access our data model via a rest api.
 
@@ -203,6 +203,8 @@ As a data sink we have our app.
 Connected through Kafka with Spark.
 
 For storing our logs we use Cassandra.
+
+Cassandra and Astyanax.
 
 
 
