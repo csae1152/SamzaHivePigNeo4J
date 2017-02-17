@@ -206,6 +206,12 @@ For storing our logs we use Cassandra.
 
 Cassandra and Astyanax.
 
+The inside-out database
+
+For the most part, our backend engineering team is in the business of building indexes that support fast aggregates on top of event streams. In our data stack, the indexes live in Druid, but the story begins with the original event streams. These are generally standard ad-tech data types like bid requests, bid responses, impressions, and clicks.
+
+Our first attempt at a streaming data stack lacked a data integration component. We tried to just use Druid to directly index incoming data from our customers. There was a serious mismatch here: even though Druid can index streams, it can only do that in a very particular way. It needs a single stream with dimensions and metrics cleanly separated. We didn’t have that: we had multiple streams with messy data. We needed to join the streams (so we could find out whether ads were served and clicked on) and we needed to transform them a bit. For a while, this mismatch prevented us from actually being able to index data in real-time. At first we tried to get our users to fix up their data for us, and send us data that was already well-suited for Druid indexing, but that flopped. People generally expected us to do the work on our end.
+
 
 
 
