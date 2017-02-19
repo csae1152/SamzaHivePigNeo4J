@@ -214,6 +214,10 @@ Our first attempt at a streaming data stack lacked a data integration component.
 
 How to integrate Samza into your Spring boot application
 
+Spring boot social.
+
+
+
 
 
 
