@@ -216,6 +216,12 @@ How to integrate Samza into your Spring boot application
 
 Spring boot social.
 
+How streams are processed
+
+If a job is consuming messages from more than one input stream, and all input streams have messages available, messages are processed in a round robin fashion by default. For example, if a job is consuming AdImpressionEvent and AdClickEvent, the task instance’s process() method is called with a message from AdImpressionEvent, then a message from AdClickEvent, then another message from AdImpressionEvent, … and continues to alternate between the two.
+
+If one of the input streams has no new messages available (the most recent message has already been consumed), that stream is skipped, and the job continues to consume from the other inputs. It continues to check for new messages becoming available.
+
 
 
 
