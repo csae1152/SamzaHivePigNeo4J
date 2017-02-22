@@ -226,7 +226,9 @@ MessageChooser
 
 When a Samza container has several incoming messages on different stream partitions, how does it decide which to process first? The behavior is determined by a MessageChooser. The default chooser is RoundRobinChooser, but you can override it by implementing a custom chooser.
 
-To plug in your own message chooser, you need to implement the MessageChooserFactory interface, and set the “task.chooser.class” configuration to the fully-qualified class name of your implementation:
+To plug in your own message chooser, you need to implement the MessageChooserFactory interface, and set the “task.chooser.class” configuration to the fully-qualified class name of your implementation
+
+Following this example...
 
 
 
