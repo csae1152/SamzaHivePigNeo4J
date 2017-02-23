@@ -230,6 +230,8 @@ To plug in your own message chooser, you need to implement the MessageChooserFac
 
 Following this example...
 
+Integrating Samza and Apache Spark.
+
 
 
 
