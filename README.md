@@ -232,6 +232,40 @@ Following this example...
 
 Integrating Samza and Apache Spark.
 
+What is HQL?
+Hive defines a simple SQL-like query language to querying and managing large datasets called Hive-QL ( HQL ). It’s easy to use if you’re familiar with SQL Language. Hive allows programmers who are familiar with the language to write the custom MapReduce framework to perform more sophisticated analysis.
+
+Uses of Hive:
+1. The Apache Hive distributed storage.
+
+2. Hive provides tools to enable easy data extract/transform/load (ETL)
+
+3. It provides the structure on a variety of data formats.
+
+4. By using Hive, we can access files stored in Hadoop Distributed File System (HDFS is used to querying and managing large datasets residing in) or in other data storage systems such as Apache HBase.
+
+Limitations of Hive:
+• Hive is not designed for Online transaction processing (OLTP ), it is only used for the Online Analytical Processing.
+
+• Hive supports overwriting or apprehending data, but not updates and deletes.
+
+• In Hive, sub queries are not supported.
+
+Why Hive is used inspite of Pig?
+The following are the reasons why Hive is used in spite of Pig’s availability:
+
+Hive-QL is a declarative language line SQL, PigLatin is a data flow language.
+Pig: a data-flow language and environment for exploring very large datasets.
+Hive: a distributed data warehouse.
+Components of Hive:
+Metastore :
+
+Hive stores the schema of the Hive tables in a Hive Metastore. Metastore is used to hold all the information about the tables and partitions that are in the warehouse. By default, the metastore is run in the same process as the Hive service and the default Metastore is DerBy Database.
+
+SerDe :
+
+Serializer, Deserializer gives instructions to hive on how to process a record.
+
 
 
 
